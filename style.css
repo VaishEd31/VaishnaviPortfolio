@@ -1,0 +1,60 @@
+img{
+    float: right;
+    border-radius: 10%;
+}
+body{
+    background-color:rgb(250, 208, 196);
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+p{
+    font-size: smaller;
+    text-align: left;
+}
+#intro{
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    line-height: normal;
+    
+
+}
+#wtf{
+    font-size: larger;
+    
+}
+#parainside{
+    font-style: initial;
+}
+#hobi{
+    font-size: 20px;
+}
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: bisque;
+    overflow: hidden;
+    width: 20%;
+    height:30px;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    bottom: 30px;
+    height: 100%;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
